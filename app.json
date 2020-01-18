@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "food delivery",
+    "slug": "food-delivery",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7bbd4a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fooddelivery.delivery"
+    },
+    "android": {
+      "package": "com.fooddelivery.delivery",
+      "versionCode":2,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyA9UeezZ2xyNjrwck8SLdh9NxsJp6HhLQc" }   
+     }
+    }
+  }
+}
